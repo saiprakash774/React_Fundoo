@@ -1,0 +1,20 @@
+.SidebarMain{
+    display: flex;
+    height: 89px;
+    position: relative;
+    /* z-index: 12; */
+}
+.MuiPaper-root{
+    margin-top: 71px !important;
+}
+
+.MuiDivider-root{
+    border: none;
+    height: 79px;
+}
+.MuiDrawer-paperAnchorDockedLeft{
+    border-right:none !important;
+}
+.pink{
+    color:burlywood;
+}

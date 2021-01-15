@@ -1,0 +1,76 @@
+.Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding:48px 40px 36px 40px;
+ }
+.inner-content{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.a1{
+    color: #4285F4;
+}
+.a2{
+    color:#DB4437;
+}
+.a3{
+    color:#F4B400;
+}
+.a4{
+    color: #4285F4;
+}
+.a5{
+    color:#0F9D58;
+}
+.a6{
+    color:#DB4437;
+}
+.formheader{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.7333;
+} 
+.logintext{
+    font-size: 20px;
+    margin-top: 12px;
+    color:#5f6368;
+    white-space:normal;
+}
+.loginbutton{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.loginmail{
+    display: flex;
+    width: 100%;
+}
+.password{
+    display: flex;
+    width: 100% !important;
+    flex-direction: column;
+}
+.checkbox{
+    width: 100% !important;
+}
+.guide{
+    width:100% !important;
+}
+@media screen and (max-width:600px){
+    .Main{
+        border:unset;
+        background: #fff;
+        line-height:1.4286 ;
+        font-size:14px;
+        width: 100%;
+    }
+}

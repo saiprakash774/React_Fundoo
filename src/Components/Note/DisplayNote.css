@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.DisplayNoteMain {
+  display: flex;
+  flex-flow: wrap;
+  padding-left: 122px;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+.noteContainer {
+  display: flex;
+  padding: 11px 12px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  flex-direction: row;
+  min-height: 122px;
+  margin-top: 12px;
+  flex-wrap: row wrap;
+  margin-left: 12px;
+  width: 280px;
+  box-shadow: 1px 1px 1px darkgray;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.MuiInputBase-input {
+  width: 100% !important;
+}
+
+.main_note2 {
+  padding:8px;
+  overflow-wrap: break-word;
+}
+.main_note3 {
+  display: none;
+}
+
+.noteContainer:hover .main_note3 {
+  display: block;
+}

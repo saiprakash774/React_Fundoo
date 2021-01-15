@@ -1,0 +1,88 @@
+.MainContainer{
+    display: flex;
+    align-items: center;
+    width: 668px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding:48px 40px 36px 40px;
+}
+.Form{
+    display:flex;
+    flex-direction: column;
+}
+.rowcontent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.formhead{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.7333;
+}
+.a1{
+    color: #4285F4;
+}
+.a2{
+    color:#DB4437;
+}
+.a3{
+    color:#F4B400;
+}
+.a4{
+    color: #4285F4;
+}
+.a5{
+    color:#0F9D58;
+}
+.a6{
+    color:#DB4437;
+}
+
+.google{
+width: 244px;
+height: 244px;
+}
+.mr{
+    margin-right: 12px !important;
+}
+.text{
+    font-size: 14px;
+    color:#5f6368;
+    white-space:normal;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+
+@media screen and (max-width:900px){
+.logo{
+    width: 0px;
+    height: 0px;
+}
+.google{
+    width:0px;
+    height: 0px;
+}
+}
+
+@media screen and (max-width:600px){
+    .MainContainer{
+        border:unset;
+        background: #fff;
+        line-height:1.4286 ;
+        font-size:14px;
+        width: 100%;
+    }
+    .rowcontent{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .mr{
+    margin-right: 0 !important;
+    margin-bottom: 12px !important;
+    }
+}

@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+.noteContainer {
+  display: flex;
+  padding: 12px 16px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  flex-direction: row;
+  min-height: 134px;
+  margin-top: 12px;
+  width: 598px;
+  box-shadow: 1px 1px 1px darkgray;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.note_icons {
+  display: flex;
+  color: gray;
+  margin-left: 12px;
+}
+.MuiInputBase-input {
+  width: 100% !important;
+}
+
+.main_note3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0px;
+}
+
+.Onclose {
+  margin-left: 70px;
+  color: darkgray;
+}
+
+.textContainer,
+.addNote {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.main_note {
+  display: flex;
+  padding: 12px 16px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  width: 598px;
+  box-shadow: 1px 1px 1px darkgray;
+}
+.basicnote {
+  width: 100%;
+  margin-right: 20px;
+}
